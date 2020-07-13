@@ -7,8 +7,8 @@ class UsersController < ApplicationController
     User.create(user_params)
   end
 
-  def home 
-    
+  def home
+
   end
 
   private
