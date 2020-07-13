@@ -8,7 +8,8 @@ class UsersController < ApplicationController
   end
 
   def home
-
+    user = User.find(session[:user_id])
+    puts "Hi, #{{user.name}}"
   end
 
   private
